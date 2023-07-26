@@ -4,4 +4,4 @@ All you need is to run the [Coqui Server](https://www.youtube.com/watch?v=zRaDe0
 
 Leave me a star if you will.
 
-![Screenshot_2023_07_26-1](https://github.com/spinalcord/Avalonia-Realistic-Text-To-Speech-TTS-/assets/4529150/b368991f-d606-4037-b494-5566d743a74e)
+![Screenshot_2023_07_26-1](https://github.com/spinalcord/Avalonia-Realistic-Text-To-Speech-TTS/assets/4529150/74a8256e-dd3d-471e-bbfc-52d6d77467a7)
