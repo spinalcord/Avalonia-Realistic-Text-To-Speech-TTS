@@ -1,0 +1,25 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:vm="clr-namespace:AvaloniaRealisticTextToSpeech.ViewModels"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="AvaloniaRealisticTextToSpeech.Views.MainView"
+             x:DataType="vm:MainViewModel">
+  <Design.DataContext>
+    <!-- This only sets the DataContext for the previewer in an IDE,
+         to set the actual DataContext for runtime, set the DataContext property in code (look at App.axaml.cs) -->
+    <vm:MainViewModel />
+  </Design.DataContext>
+
+	<Grid Margin="5,5,5,5">
+		<Grid.RowDefinitions>
+			<RowDefinition/>
+			<RowDefinition Height="30"/>
+		</Grid.RowDefinitions>
+
+		<TextBox TextWrapping="Wrap" x:Name="SpeechText" Grid.Row="0" AcceptsReturn="True" >Once upon a time, in a quaint village nestled amidst lush, enchanted forests, lived a curious young girl named Lily. Her eyes sparkled with wonder, and her heart yearned for adventures that lay beyond the horizon. Little did she know, an extraordinary journey was about to unfold, forever changing her destiny.</TextBox>
+		<Button Grid.Row="1"  Command="{Binding SpeechCommand}" CommandParameter="{Binding Text, ElementName=SpeechText}">Speech</Button>
+	</Grid>
+  
+</UserControl>

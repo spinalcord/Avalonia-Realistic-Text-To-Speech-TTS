@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AvaloniaRealisticTextToSpeech", "AvaloniaRealisticTextToSpeech\AvaloniaRealisticTextToSpeech.csproj", "{36AAFB39-2FDC-4716-8DAD-AB91C3422E26}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AvaloniaRealisticTextToSpeech.Desktop", "AvaloniaRealisticTextToSpeech.Desktop\AvaloniaRealisticTextToSpeech.Desktop.csproj", "{519517D7-C425-4650-BDB3-D1A39ABAB420}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{36AAFB39-2FDC-4716-8DAD-AB91C3422E26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36AAFB39-2FDC-4716-8DAD-AB91C3422E26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36AAFB39-2FDC-4716-8DAD-AB91C3422E26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36AAFB39-2FDC-4716-8DAD-AB91C3422E26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{519517D7-C425-4650-BDB3-D1A39ABAB420}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{519517D7-C425-4650-BDB3-D1A39ABAB420}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{519517D7-C425-4650-BDB3-D1A39ABAB420}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{519517D7-C425-4650-BDB3-D1A39ABAB420}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {061EECBB-07EB-4B9B-8A35-A75F47F3CEE6}
+	EndGlobalSection
+EndGlobal
