@@ -4,6 +4,6 @@ All you need is to run the [Coqui Server](https://www.youtube.com/watch?v=zRaDe0
 
 [Example on YouTube](https://www.youtube.com/watch?v=EKy8OwzQqLg)
 
-Leave me a star if you will.
+Please give me a star
 
 ![Screenshot_2023_07_26-1](https://github.com/spinalcord/Avalonia-Realistic-Text-To-Speech-TTS/assets/4529150/74a8256e-dd3d-471e-bbfc-52d6d77467a7)
